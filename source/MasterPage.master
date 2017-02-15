@@ -1,0 +1,31 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+<%@ Register TagPrefix="HRManager" TagName="UserControls_LeftTree" Src="~/Left.ascx"  %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>无标题页</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrap">
+        <div id="top">
+                    <div id="header">
+                            <div id="logo">
+                                    <a href="/" title="返回网站主页"> </a></div>
+                        学生德育评价系统</div> 
+        </div>
+        <div id="left">
+           <HRManager:UserControls_LeftTree ID="leftTree" runat="server" />
+        </div>
+        <div id="right">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="bottom">
+      &copy; 2011 北方民族大学计算机系软件工程07级1班 版权所有   </div>
+    </div>
+    </form>
+</body>
+</html>

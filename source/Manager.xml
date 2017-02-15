@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<lev0 name="后台管理" url="">
+	<lev1 name="学生信息" url="">
+		<lev2 name="学生信息查询" url="StudentQuery.aspx"></lev2>
+		<lev2 name="学生信息管理" url="StudentManager.aspx"></lev2>
+	</lev1>
+	<lev1 name="学生处分" url="">
+		<lev2 name="学生处分浏览" url="PunishQuery.aspx"></lev2>
+		<lev2 name="学生处分管理" url="PunishManager.aspx"></lev2>
+	</lev1>
+	<lev1 name="IPQ" url="">
+		<lev2 name="IPQ加分查询" url="IPQQuery.aspx"></lev2>		
+		<lev2 name="IPQ加分" url="AddIPQManager.aspx"></lev2>
+		<lev2 name="IPQ减分" url="SubtractionIPQManager.aspx"></lev2>
+	</lev1>
+	<lev1 name="学生考勤" url="">
+		<lev2 name="每周考勤浏览" url="AttendanceQuery.aspx"></lev2>
+		<lev2 name="每周考勤管理" url="AttendanceManager.aspx"></lev2>
+	</lev1>
+	<lev1 name="宿舍卫生" url="">
+		<lev2 name="每周卫生检查" url="HealthQuery.aspx"></lev2>
+		<lev2 name="卫生检查结果管理" url="HealthManager.aspx"></lev2>
+	</lev1>
+	<lev1 name="个人信息管理" url="">
+		<lev2 name="修改密码" url="AdminUpdate2.aspx"></lev2>
+	</lev1>
+	<lev1 name="退出" url="javascript:window.close()"></lev1>
+</lev0>

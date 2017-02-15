@@ -1,0 +1,3 @@
+SQL(Structured Query Language)，结构化查询语言。SQL语言的主要功能就是同各种数据库建立联系，进行沟通。按照ANSI(美国国家标准协会)的规定，SQL被作为关系型数据库管理系统的标准语言。SQL语句可以用来执行各种各样的操作，例如更新数据库中的数据，从数据库中提取数据等。绝大多数流行的关系型数据库管理系统都采用了SQL语言标准。虽然很多数据库都对SQL语句进行了再开发和扩展，但是包括Select, Insert, Update, Delete, Create,以及Drop在内的标准的SQL命令仍然可以被用来完成几乎所有的数据库操作。
+SQL Server 是一个关系数据库管理系统。它最初是由Microsoft、 Sybase 和Ashton-Tate三家公司共同开发的，于1988 年推出了第一个OS/2 版本。在Windows NT 推出后，Microsoft与Sybase 在SQL Server 的开发上就分道扬镳了，Microsoft 将SQL Server 移植到Windows NT系统上，专注于开发推广SQL Server 的Windows NT 版本。Sybase 则较专注于SQL Server在UNIX 操作系统上的应  
+用。

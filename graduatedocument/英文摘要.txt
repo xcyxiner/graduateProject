@@ -1,0 +1,6 @@
+This system is to establish a information database of student (the system contains attendance, Punish, activities and so on ).It is Possible for the system to update student dynamic information on time (such as ,if it is know that Students get a bonus,then the  Manager can input the date into the System).  
+The function of the system contains Student information management,Student punish managent,Student AddIPQ managent,Stdent SubtractionIPQ management,Student Attendance management, Student Health management .
+The system using Visual Basic 2005 development, the use of SQL Server 2005 database as a background, the inventory data was visual image, to facilitate decision-makers to judge. 
+After testing, the system can be completed by the basic requirements of the various functions; can be effective management of Student IPQ  information.
+
+Key words: Student IPQ system Base on DotNet,DotNet,IPQ,Attendance,Health

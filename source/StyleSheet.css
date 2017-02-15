@@ -1,0 +1,84 @@
+﻿body 
+{
+	padding:0px;
+	margin-top:2px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+#wrap 
+{
+	height:600px;
+	width:776px;
+	padding:0px;
+	margin-right:auto;
+	margin-left:auto;
+	border:1px solid #000000;
+	background-color:#CCCCCC;
+}
+#top 
+{
+	width:100%;
+	height:200px;
+	background-color:#99CC00;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	border-bottom-color:#000000;
+}
+#bottom
+{
+	width:100%;
+	height:100px;
+	text-align:right;
+	font-size:small;
+	background-color:#99CC00;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	border-bottom-color:#000000;
+}
+#left
+{
+	float:left;
+	width:30%;
+	height:400px;
+	background-color:#996600;
+	margin:0px;
+	padding:0px;
+}
+#right
+{
+	width:66%;
+	height:400px;
+	background-color:#FFFFFF;
+	overflow:auto;
+	margin:0px;
+	padding:0px;
+}
+#header
+{
+	 height:50px;
+	 width:776px;
+	 margin-top:0px;
+	 margin-right:auto;
+	 margin-bottom:0px;
+	 margin-left:auto;
+	 padding:0px;
+	 background-color:#CCCCCC;
+	 text-align:center;
+	 font-size:xx-large;
+}
+#logo
+{
+	float:left;
+	width:117px;
+	height:100%;
+	background-image:url("IMG/keai.jpg");
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+#logo a
+{
+	width:117px;
+	height:100%;
+	display:block;
+}
